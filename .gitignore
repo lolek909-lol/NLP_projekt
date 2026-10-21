@@ -1,0 +1,25 @@
+# Środowisko wirtualne Pythona
+.venv/
+venv/
+env/
+
+# Pamięć podręczna Pythona
+__pycache__/
+*.py[cod]
+
+# Pliki konfiguracyjne PyCharma
+.idea/
+
+# Duże modele językowe i osadzenia
+*.bin
+*.txt
+*.vec
+*.gensim*
+
+# Duże pliki z przetworzonymi danymi
+*.npy
+*.pkl
+dane_df.pkl
+
+# (Opcjonalnie) jeśli nie chcesz wysyłać plików CSV ze zbiorami:
+# *.csv
