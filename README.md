@@ -4,7 +4,5 @@ Projekt z przetwarzania języka naturalnego (NLP) wykorzystujący osadzenia sł�
 
 ## Instalacja
 
-1. Sklonuj repozytorium:
-   ```bash
-   git clone <LINK_DO_TWOJEGO_REPOZYTORIUM>
-   cd NLP_projekt
+1. Pobierz model word2vec, skorzystaj z powershella: curl.exe -L "http://dsmodels.nlp.ipipan.waw.pl/dsmodels/wiki-forms-restricted-100-cbow-ns.txt.gz" -o "wiki-forms-restricted-100-cbow-ns.txt.gz" lub przetłumacz to na linuxie
+2. Pobierz model Fasttext: https://huggingface.co/clarin-pl/fastText-kgr10/tree/main przejdź do Files and Version. Następnie pobierz kgr10.plain.skipgram.dim100.neg10.bin
